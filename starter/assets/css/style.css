@@ -1,0 +1,103 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+  height: 100%;
+}
+
+header {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+  padding: 60px;
+}
+
+.description {
+  white-space: pre-wrap;
+}
+
+.time-block {
+  text-align: center;
+  border-radius: 15px;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;
+}
+
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+  min-width: 80px;
+  height: 100%;
+  padding-top: 10px;
+}
+
+.past {
+  background-color: #d3d3d3;
+  color: black;
+}
+
+.present {
+  background-color: #ff6961;
+  color: black;
+}
+
+.future {
+  background-color: #77dd77;
+  color: black;
+}
+
+.saveBtnContainer {
+  display: flex;
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06aed5;
+  color: white;
+  height: 100%;
+}
+
+.saveBtn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.saveBtn i:hover {
+  font-size: 2.4rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.current-date{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+.schedule-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  border-top: 1px solid white;
+}
+.schedule-item textarea {
+  flex: 1;
+}
+.container {
+  margin-top: 10px;
+}
