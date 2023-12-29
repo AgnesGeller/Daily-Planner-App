@@ -33,4 +33,6 @@ This project is licensed under the MIT License. See the [LICENSE](^6^) file for 
 
 Feel free to visit my portfolio webpage: https://agnesgeller.github.io/Daily-Planner-App/
 
+![Screenshot (22)](https://github.com/AgnesGeller/Daily-Planner-App/assets/147996856/5d39db85-dd2d-4719-8329-43f21f835d78)
+
 
